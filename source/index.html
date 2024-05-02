@@ -17,8 +17,16 @@
 
   <header class="header">
     <nav class="main-navigation">
-      <a class="main-navigation__logo" href="index.html" aria-current="page">
-        <img class="main-navigation__logo-img" src="#" width="202" height="59" alt="Логотип сайта Cat Energy">
+      <a class="main-navigation__logo logo" href="index.html" aria-current="page">
+        <picture>
+          <source media="(min-width: 1440px)" width="70" height="59" type="image/svg+xml" srcset="images/logo-img-desktop.svg">
+          <source media="(min-width: 768px)" width="60" height="50" type="image/svg+xml" srcset="images/logo-img-tablet.svg">
+          <img class="main-navigation__logo-img" src="images/logo-img-mobile.svg" width="33" height="38" alt="Логотип сайта Cat Energy">
+        </picture>
+        <picture>
+          <source media="(min-width: 1440px)" width="118" height="21" type="image/svg+xml" srcset="images/logo-text-desktop.svg">
+          <img class="main-navigation__logo-img" src="images/logo-text-mobile-tablet.svg" width="101" height="18" alt="Товарный знак Cat Energy">
+        </picture>
       </a>
       <button class="main-navigation__toggle" type="button">
         <span class="visually-hidden">Открыть меню</span>
@@ -39,9 +47,9 @@
   <main class="main-container">
     <section class="main-hero">
       <picture>
-        <source media="(min-width: 1440px)" width="552" height="499" type="image/jpeg" srcset="images/main-page-cat-energy@1x.jpg 1x, images/main-page-cat-energy@2x.jpg 2x">
-        <source media="(min-width: 768px)" width="709" height="609" type="image/jpeg" srcset="images/main-page-cat-energy@1x.jpg 1x, images/main-page-cat-energy@2x.jpg 2x">
-        <img class="main-hero__main-picture" src="images/main-page-cat-energy@1x.jpg" srcset="images/main-page-cat-energy@2x.jpg 2x" width="280" height="270" alt="Упаковка продукции Cat Energy">
+        <source media="(min-width: 1440px)" width="552" height="499" type="image/png" srcset="images/cat-energy-mainpage-desktop@1x.png 1x, images/cat-energy-mainpage-desktop@2x.png 2x">
+        <source media="(min-width: 768px)" width="709" height="609" type="image/png" srcset="images/cat-energy-mainpage-tablet@1x.png 1x, images/cat-energy-mainpage-tablet@2x.png 2x">
+        <img class="main-hero__main-picture" src="images/cat-energy-mainpage-mobile@1x.png" srcset="images/cat-energy-mainpage-mobile@2x.png 2x" width="280" height="270" alt="Упаковка продукции Cat Energy">
       </picture>
       <div class="main-hero__container">
         <h1 class="main-hero__title">Функциональное питание для котов</h1>
@@ -158,7 +166,7 @@
 
   <footer class="footer">
     <a class="footer__logo" href="index.html" aria-current="page">
-      <img class="footer__logo-img" src="#" width="202" height="59" alt="Логотип сайта Cat Energy">
+      <img class="footer__logo-img" src="images/logo-text-mobile-tablet.svg" width="128" height="24" alt="Логотип сайта Cat Energy">
     </a>
     <ul class="footer__social-list">
       <li class="footer__social-list-item">
