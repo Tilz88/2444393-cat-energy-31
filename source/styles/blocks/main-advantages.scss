@@ -1,8 +1,3 @@
-.main-advantages {
-  padding: 0 20px;
-}
-
-
 .main-advantages__wrapper {
   background: #f2f2f2;
   padding: 24px 33px 18px 20px;
@@ -95,12 +90,15 @@
 
   &::after {
     content: "";
-    mask-image: url("../../icons/stack.svg#icon-arrow");
+    mask-image: url("../../icons/stack.svg#icon-arrow-long");
     background-color: #000000;
     display: inline-block;
-    width: 24px;
-    height: 13px;
+    width: 32px;
+    height: 12px;
     margin-left: 13px;
+    mask-position: right 8px top 0;
+    mask-repeat: no-repeat;
+    transition: mask-position 0.3s;
   }
 
   &:hover::after,
@@ -109,5 +107,6 @@
     mask-image: url("../../icons/stack.svg#icon-arrow-long");
     width: 32px;
     height: 12px;
+    mask-position: right 0 top 0;
   }
 }

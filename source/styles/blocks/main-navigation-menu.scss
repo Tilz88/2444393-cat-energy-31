@@ -1,8 +1,6 @@
 .main-navigation-menu {
   min-width: 320px;
-  position: absolute;
   background-color: #ffffff;
-  z-index: 1;
 }
 
 .main-navigation-menu__list {
@@ -25,8 +23,7 @@
   text-decoration: none;
   color: #000000;
   display: block;
-  width: 320px;
-  padding: 22px 75px 23px;
+  padding: 22px 0 24px;
 }
 
 @media (width >= 768px) {

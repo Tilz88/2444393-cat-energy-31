@@ -1,6 +1,6 @@
 .main-experience {
   background-color: #eaeaea;
-  padding: 25px 20px 40px;
+  padding: 25px 0 40px;
 }
 
 .main-experience__title {
@@ -23,6 +23,7 @@
   display: flex;
   gap: 32px;
   margin-bottom: 34px;
+  justify-content: center;
 }
 
 .main-experience__clarifying {
@@ -71,6 +72,8 @@
 }
 
 .main-experience__slider-description {
+  max-width: 280px;
+  margin: 0 auto;
   position: relative;
 }
 
